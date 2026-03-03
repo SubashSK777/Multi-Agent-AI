@@ -9,7 +9,7 @@
     <b>A high-order Multi-Agent System (MAS) leveraging recursive context-injection and sequential reasoning to solve multi-dimensional ethical dilemmas.</b>
   </p>
 
-  <img src="https://github-readme-stats.vercel.app/api?username=SubashSK777&show_icons=true&theme=tokyonight" alt="GitHub Stats">
+  <img src="https://github-readme-stats.vercel.app/api?username=SubashSK777&show_icons=true&theme=tokyonight&count_private=true" alt="GitHub Stats">
 </div>
 
 ---
@@ -47,7 +47,7 @@ graph TD
 
 ---
 
-## 🏗️ Technical Specification & Performance
+## ⚡ Technical Specification & Performance
 Nexus utilizes **Asynchronous Sequential Processing** via the Puter.js orchestrator. This allows for high-fidelity reasoning without the latency of traditional Python-based MAS frameworks like CrewAI.
 
 ### ⚙️ Engine Mechanics
@@ -70,12 +70,12 @@ python -m http.server 8000
 
 ## 🌌 Multi-Agent Neural Visualization Orbit
 <!-- 
-    The following section provides a deep technical visualization of the agent interactions.
-    Visualizing 500+ lines of MAS logic and orbit.
+    Proprietary SVG Visualization of Agent Orbit. 
+    Internal Asset Mapping fixed.
 -->
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/SubashSK777/Multi-Agent-AI/main/assets/agent-orbit.svg" width="100%" alt="Agent Neural Orbit">
+  <img src="assets/agent-orbit.svg" width="800" alt="Agent Neural Orbit">
   
   <br/>
   
