@@ -95,6 +95,12 @@ python -m http.server 8000
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%" />
-  <p><b>MASTER ARCHITECT: SUBASH KUMAR K</b></p>
-  <sub>Autonomous Multi-Agent Systems Research Hub</sub>
+  <h2>🤝 Open for Collaboration & Contributions</h2>
+  <p>Whether you're an <b>AI researcher</b>, <b>MAS developer</b>, or <b>curious engineer</b>, I'm always open to discussing new ideas, optimizations, or potential collaborations on this project.</p>
+  <p>
+    <a href="https://github.com/SubashSK777/Multi-Agent-AI/pulls"><b>Open a Pull Request</b></a> • 
+    <a href="https://github.com/SubashSK777/Multi-Agent-AI/issues"><b>Report an Issue</b></a> • 
+    <a href="mailto:subashsk11831@gmail.com"><b>Contact Me</b></a>
+  </p>
+  <sub>Architected by Subash Kumar K | Autonomous Multi-Agent Systems Research Hub</sub>
 </div>
