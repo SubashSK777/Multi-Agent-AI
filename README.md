@@ -14,7 +14,7 @@
 
 ---
 
-## � MAS Neural Architecture
+## 🧠 MAS Neural Architecture
 The Nexus Engine implements a **Recursive Contextual Accumulation** pipeline. This is not a standard chat wrapper; it is a state-managed orchestrator that optimizes the semantic drift between specialized agent nodes.
 
 ### 🔄 Data Flow Topology
@@ -68,8 +68,33 @@ python -m http.server 8000
 
 ---
 
+## 🌌 Multi-Agent Neural Visualization Orbit
+<!-- 
+    The following section provides a deep technical visualization of the agent interactions.
+    Visualizing 500+ lines of MAS logic and orbit.
+-->
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/SubashSK777/Multi-Agent-AI/main/assets/agent-orbit.svg" width="100%" alt="Agent Neural Orbit">
+  
+  <br/>
+  
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=2&width=100%" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=2&width=90%" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=2&width=80%" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=2&width=70%" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=2&width=60%" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=2&width=50%" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=2&width=40%" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=2&width=30%" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=2&width=20%" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=2&width=10%" width="100%"/>
+</div>
+
+---
+
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%" />
-  <p><b>MASTER ARCHITECT: SUBASH SK</b></p>
+  <p><b>MASTER ARCHITECT: SUBASH KUMAR K</b></p>
   <sub>Autonomous Multi-Agent Systems Research Hub</sub>
 </div>
