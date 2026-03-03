@@ -68,39 +68,22 @@ python -m http.server 8000
 
 ---
 
-## 🌌 Multi-Agent Neural Visualization Orbit
-<!-- 
-    Proprietary SVG Visualization of Agent Orbit. 
-    Internal Asset Mapping fixed.
--->
+## 🤝 Open for Contributions & Collaboration
 
-<div align="center">
-  <img src="assets/agent-orbit.svg" width="800" alt="Agent Neural Orbit">
-  
-  <br/>
-  
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=2&width=100%" width="100%"/>
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=2&width=90%" width="100%"/>
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=2&width=80%" width="100%"/>
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=2&width=70%" width="100%"/>
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=2&width=60%" width="100%"/>
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=2&width=50%" width="100%"/>
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=2&width=40%" width="100%"/>
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=2&width=30%" width="100%"/>
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=2&width=20%" width="100%"/>
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=2&width=10%" width="100%"/>
-</div>
+I am always looking to collaborate with **AI Researchers**, **MAS Developers**, and **Software Engineers** who are passionate about autonomous agent orchestration. Whether it's optimizing the recursive context loop, adding new specialized agents, or enhancing the inference layer, your input is welcome!
+
+### How to Contribute:
+1. **Fork** the repository.
+2. **Create** a feature branch (`git checkout -b feature/AmazingFeature`).
+3. **Commit** your changes (`git commit -m 'Add some AmazingFeature'`).
+4. **Push** to the branch (`git push origin feature/AmazingFeature`).
+5. **Open** a Pull Request.
 
 ---
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%" />
-  <h2>🤝 Open for Collaboration & Contributions</h2>
-  <p>Whether you're an <b>AI researcher</b>, <b>MAS developer</b>, or <b>curious engineer</b>, I'm always open to discussing new ideas, optimizations, or potential collaborations on this project.</p>
-  <p>
-    <a href="https://github.com/SubashSK777/Multi-Agent-AI/pulls"><b>Open a Pull Request</b></a> • 
-    <a href="https://github.com/SubashSK777/Multi-Agent-AI/issues"><b>Report an Issue</b></a> • 
-    <a href="mailto:subashsk11831@gmail.com"><b>Contact Me</b></a>
-  </p>
-  <sub>Architected by Subash Kumar K | Autonomous Multi-Agent Systems Research Hub</sub>
+  <p><b>ARCHITECTED BY SUBASH KUMAR K</b></p>
+  <sub>Autonomous Multi-Agent Systems Research Hub</sub>
 </div>
+
