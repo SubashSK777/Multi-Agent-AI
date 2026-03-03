@@ -1,72 +1,65 @@
-# AI with CrewAI: Multi-Agent System 2 Thinking
+# Nexus: Multi-Agent AI Engine
 
 ## Project Summary
-This repository contains an advanced AI application built using CrewAI. It leverages a Multi-Agent System (MAS) framework to integrate **System 2 thinking**, enabling AI to handle complex decision-making through both **intuitive (System 1) and analytical (System 2) processes**. Unlike traditional single-agent AI systems such as TensorFlow Agents or OpenAI’s Gym, CrewAI enables scalable and collaborative AI operations without requiring extensive programming expertise.
+Nexus is an advanced AI application that leverages a Multi-Agent System (MAS) framework built directly into the browser. Originally implemented with CrewAI over Python, it has now been fully refactored and modernized using **Puter.js** to provide seamless, intuitive, and serverless AI orchestration. 
+
+This application takes an ethical dilemma or complex scenario and runs it sequentially through a team of specialized AI agents—ranging from *Moral Analyzers* to *Legal Evaluators*—before generating a cohesive final synthesis.
 
 ### Key Features
-- **Multi-Agent Collaboration:** CrewAI utilizes dynamic agent interactions to improve decision-making and adaptability.
-- **System 2 Thinking Integration:** Enables deliberate, analytical, and context-aware AI reasoning.
-- **Scalability & Flexibility:** Designed for complex real-world applications, including **smart grid management, automated customer support, and intelligent advertising**.
+- **Serverless AI Execution:** Powered entirely by `puter.js`, requiring no backend setup or API keys to start.
+- **Beautiful Dark UI:** A highly intuitive, visually pleasing dark theme utilizing the *Outfit* font, glassmorphism, and smooth micro-animations.
+- **Multi-Agent Collaboration:** A coordinated pipeline of agents (Scenario Creator, Moral Analyzer, Emotional Evaluator, Consequence Evaluator, and Final Decider) evaluate prompts sequentially.
+- **Dynamic Context Passing:** Each agent builds upon the insights of the previous step.
+- **PDF Export:** Effortlessly download the final synthesis as a nicely formatted PDF.
 
 ---
 
-## Workflow
-### 1. Agent-Based Collaboration
-CrewAI operates on a **multi-agent** framework where each agent specializes in tasks like **data analysis, decision-making, and resource management**. These agents interact in real-time, ensuring efficient task execution.
+## Architecture Flow
+### 1. The Scenario is Defined
+The user inputs a complex dilemma (like choosing between saving a baby or a world leader).
 
-### 2. Dynamic Role Assignment
-Agents dynamically **adjust roles and priorities** based on the problem domain. This adaptive mechanism ensures optimal performance for different challenges.
+### 2. Multi-Agent Pipeline
+The application triggers a sequential run of specialized agents:
+- **📝 Scenario Creator:** Outlines the core conflict.
+- **⚖️ Moral Analyzer:** Assesses ethical considerations.
+- **❤️ Emotional Evaluator:** Evaluates the empathetic and emotional impact.
+- **🌍 Consequence Evaluator:** Projects the broader societal implications.
+- **🏛️ Final Decider:** Integrates all insights to provide a definitive choice.
 
-### 3. Hierarchical Task Management
-CrewAI utilizes a **hierarchical agent structure**, where leader agents coordinate sub-agents to streamline complex decision-making processes efficiently.
-
-### 4. Decision-Making Algorithms
-CrewAI employs multiple advanced AI decision protocols:
-- **Contract Net Protocol:** Efficient task allocation through agent bidding.
-- **Consensus Algorithms (Raft, Paxos):** Ensures system-wide agreement on decisions.
-- **Negotiation Protocols:** Enables agents to reach mutually optimal solutions in conflicting scenarios.
+### 3. Final Synthesis & Export
+The UI beautifully animates each agent's active status. Upon completion, a formatted markdown synthesis is presented to the user, with the option to download it seamlessly.
 
 ---
 
 ## Tech Stack
-- **Framework:** CrewAI (Multi-Agent AI)
-- **Algorithms:** Contract Net Protocol, Raft, Paxos, Negotiation Models
-- **Core AI Methodologies:** Multi-Agent Systems (MAS), System 2 Thinking, Adaptive Learning
-- **Deployment:** Cloud-Based Integration
+- **Frontend Core:** HTML5, CSS3, ES6 JavaScript
+- **AI Backend:** [Puter.js](https://puter.com/) (`puter.ai.chat()`)
+- **Document Export:** `html2pdf.js`
+- **Aesthetic Tone:** Custom-built modern CSS featuring deep space dark colors (`#0d1117`), cyan/purple gradients, and glass blur effects.
 
 ---
 
 ## Getting Started
+
 1. **Clone the Repository**
 ```sh
-   git clone https://github.com/SubashSK777/Multi-Agent-AI.git
+git clone https://github.com/SubashSK777/Multi-Agent-AI.git
+cd Multi-Agent-AI
 ```
-2. **Install CrewAI**
-   - Follow the installation guide from [CrewAI Docs](https://docs.crewai.com)
-3. **Import the Project**
-   - Load the project into CrewAI’s platform
-4. **Configure Settings**
-   - Set up agent roles, parameters, and task automation settings
-5. **Run the AI**
-   - Deploy and execute multi-agent interactions for enhanced decision-making
 
----
+2. **Run the Application**
+Since this project is completely serverless and runs on browser APIs, you simply need to serve the directory!
+Using python:
+```sh
+python -m http.server 8000
+```
+Or using Node `serve`:
+```sh
+npx serve
+```
 
-## Applications
-- **Smart Grid Management:** Optimizes real-time energy distribution.
-- **Automated Customer Service:** Enhances support interactions with intelligent responses.
-- **Intelligent Advertising:** Personalizes marketing campaigns through agent-based decision-making.
-
----
-
-## Challenges & Solutions
-### **Challenges**
-- **Scalability Issues:** Communication overhead increases as agents scale.
-- **Coordination Complexity:** Ensuring agents align towards a shared goal.
-
-### **Solutions**
-- **Dynamic Role Assignment:** Allocates resources based on real-time agent performance.
-- **Hierarchical Task Management:** Reduces conflicts and improves execution efficiency.
+3. **Open your Browser**
+Navigate to `http://localhost:8000` to start interacting with Nexus.
 
 ---
 

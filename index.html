@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus | Multi-Agent AI Engine</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Include Puter.js -->
+    <script src="https://js.puter.com/v2/"></script>
+    <!-- Include Marked.js for reliable Markdown rendering -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <div class="cursor-glow" id="cursorGlow"></div>
+    <div class="background-animation">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+        <div class="shape shape-4"></div>
+        <div class="shape shape-5"></div>
+        <div class="shape shape-6"></div>
+    </div>
+
+    <canvas id="webgl-canvas"></canvas>
+    
+    <div class="container">
+        <header>
+            <div class="logo">
+                <span class="logo-icon">✨</span>
+                <h1>Nexus <span class="badge">Multi-Agent AI</span></h1>
+            </div>
+            <p class="subtitle">An intuitive, intelligent orchestrator that evaluates complex dilemmas using specialized AI agents.</p>
+        </header>
+
+        <main>
+            <div class="input-section glass-panel">
+                <label for="dilemmaInput">Describe the Ethical Dilemma or Scenario:</label>
+                <textarea id="dilemmaInput" placeholder="E.g., A choice must be made between saving a critical figure or a baby from a burning building..."></textarea>
+                <button id="analyzeBtn" class="primary-btn">
+                    <span class="btn-text">Initiate Analysis</span>
+                    <span class="btn-loader"></span>
+                </button>
+            </div>
+
+            <div class="agents-progress-container hidden" id="progressContainer">
+                <h3>Agent Operations</h3>
+                <div class="agents-grid" id="agentsGrid">
+                    <!-- Agents will be injected here dynamically -->
+                </div>
+            </div>
+
+            <div class="result-section hidden glass-panel" id="resultSection">
+                <div class="result-header">
+                    <h2>Final Synthesis</h2>
+                </div>
+                <div id="finalReport" class="report-content">
+                    <!-- Report content injected here -->
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="bg.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
