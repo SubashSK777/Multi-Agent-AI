@@ -1,68 +1,90 @@
-# Nexus: Multi-Agent AI Engine
+<div align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
 
-## Project Summary
-Nexus is an advanced AI application that leverages a Multi-Agent System (MAS) framework built directly into the browser. Originally implemented with CrewAI over Python, it has now been fully refactored and modernized using **Puter.js** to provide seamless, intuitive, and serverless AI orchestration. 
+  # 🌌 NEXUS: THE MULTI-AGENT ETHER
+  
+  [![Puter.js](https://img.shields.io/badge/AI-Powered_by_Puter.js-6B66FF?style=for-the-badge&logo=ai-system&logoColor=white)](https://puter.com)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-00D2D3?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](LICENSE)
+  [![Visuals: Three.js](https://img.shields.io/badge/Graphics-Three.js-FF6B6B?style=for-the-badge&logo=three.js&logoColor=white)](https://threejs.org)
 
-This application takes an ethical dilemma or complex scenario and runs it sequentially through a team of specialized AI agents—ranging from *Moral Analyzers* to *Legal Evaluators*—before generating a cohesive final synthesis.
+  <p align="center">
+    <b>A breathtaking, interactive, and autonomous multi-agent ecosystem designed to solve the world's most complex ethical dilemmas.</b>
+  </p>
 
-### Key Features
-- **Serverless AI Execution:** Powered entirely by `puter.js`, requiring no backend setup or API keys to start.
-- **Beautiful Dark UI:** A highly intuitive, visually pleasing dark theme utilizing the *Outfit* font, glassmorphism, and smooth micro-animations.
-- **Multi-Agent Collaboration:** A coordinated pipeline of agents (Scenario Creator, Moral Analyzer, Emotional Evaluator, Consequence Evaluator, and Final Decider) evaluate prompts sequentially.
-- **Dynamic Context Passing:** Each agent builds upon the insights of the previous step.
-- **PDF Export:** Effortlessly download the final synthesis as a nicely formatted PDF.
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
+</div>
 
----
+## ✨ The Vision
+**Nexus** is not just an application; it's a digital consciousness. Built on a foundation of award-winning aesthetics and high-performance **Three.js** neural networks, it orchestrates a symphony of AI agents to evaluate human complexity.
 
-## Architecture Flow
-### 1. The Scenario is Defined
-The user inputs a complex dilemma (like choosing between saving a baby or a world leader).
-
-### 2. Multi-Agent Pipeline
-The application triggers a sequential run of specialized agents:
-- **📝 Scenario Creator:** Outlines the core conflict.
-- **⚖️ Moral Analyzer:** Assesses ethical considerations.
-- **❤️ Emotional Evaluator:** Evaluates the empathetic and emotional impact.
-- **🌍 Consequence Evaluator:** Projects the broader societal implications.
-- **🏛️ Final Decider:** Integrates all insights to provide a definitive choice.
-
-### 3. Final Synthesis & Export
-The UI beautifully animates each agent's active status. Upon completion, a formatted markdown synthesis is presented to the user, with the option to download it seamlessly.
+Originally born in Python with CrewAI, Nexus has ascended into a **completely serverless, browser-native powerhouse** using **Puter.js**.
 
 ---
 
-## Tech Stack
-- **Frontend Core:** HTML5, CSS3, ES6 JavaScript
-- **AI Backend:** [Puter.js](https://puter.com/) (`puter.ai.chat()`)
-- **Document Export:** `html2pdf.js`
-- **Aesthetic Tone:** Custom-built modern CSS featuring deep space dark colors (`#0d1117`), cyan/purple gradients, and glass blur effects.
+## 🎨 Visual Experience
+| 🌊 Liquid Data Ocean | 🧠 Neural Network | 💎 Glassmorphism |
+| :---: | :---: | :---: |
+| Dynamic 15,000 vertex particle terrain | Interactive 3D Parallax Camera | Ultra-clean, eye-pleasing dark theme |
+
+<div align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHJqZ3R6dWtpZ2ptZzBqZzBqZzBqZzBqZzBqZzBqZzBqZzBqZzBqJmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/3o7TKSjPXYp9O/giphy.gif" width="600" alt="Neural Animation">
+</div>
 
 ---
 
-## Getting Started
+## 🤖 The Council of Agents
+Nexus sequentially triggers specialized AI entities to evaluate your input:
 
-1. **Clone the Repository**
-```sh
+1. **📝 Scenario Creator** • *The Architect of Context*
+2. **⚖️ Moral Analyzer** • *The Ethical Arbiter*
+3. **❤️ Emotional Evaluator** • *The Sentient Mirror*
+4. **🌍 Consequence Evaluator** • *The Societal Oracle*
+5. **🏛️ Final Decider** • *The Synthesis Engine*
+
+---
+
+## 🚀 Tech Stack
+- **AI Core:** [Puter.js](https://puter.com/) (Browser-Native AI)
+- **Visuals:** [Three.js](https://threejs.org/) (WebGL Neural Core)
+- **Styling:** Vanilla CSS3 (Glassmorphism & Advanced Keyframes)
+- **Engine:** Pure ES6+ JavaScript
+
+---
+
+## 🛠️ Quick Start
+
+### 1. Resonance (Clone)
+```bash
 git clone https://github.com/SubashSK777/Multi-Agent-AI.git
 cd Multi-Agent-AI
 ```
 
-2. **Run the Application**
-Since this project is completely serverless and runs on browser APIs, you simply need to serve the directory!
-Using python:
-```sh
+### 2. Ignition (Serve)
+Since Nexus is browser-native, just serve the directory:
+```bash
+# Python
 python -m http.server 8000
-```
-Or using Node `serve`:
-```sh
+# Node
 npx serve
 ```
 
-3. **Open your Browser**
-Navigate to `http://localhost:8000` to start interacting with Nexus.
+### 3. Synchronization
+Visit `http://localhost:8000` and watch the neural network align.
 
 ---
 
-## Contact
-For any inquiries, feel free to reach out:
-**Email:** subashsk11831@gmail.com
+<div align="center">
+  <h3>🔗 Stay Connected</h3>
+  <p>Engineered with passion by <b>Subash SK</b></p>
+  
+  <a href="mailto:subashsk11831@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+  </a>
+  <a href="https://github.com/SubashSK777">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  </a>
+
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
+  
+  <sub>© 2026 Nexus AI Systems. Sentience is just code.</sub>
+</div>
