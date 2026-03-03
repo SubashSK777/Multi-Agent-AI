@@ -1,23 +1,23 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=280&section=header&text=NEXUS%20AI%20ENGINE&fontSize=70&animation=fadeIn&fontAlignY=38&desc=Advanced%20Sequential%20Multi-Agent%20Orchestrator&descAlignY=51&descAlign=50" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=280&section=header&text=NEXUS%20MAS%20HUB&fontSize=70&animation=fadeIn&fontAlignY=38&desc=Recursive%20Autonomous%20Multi-Agent%20Architecture&descAlignY=51&descAlign=50" width="100%" />
 
   [![Neural Core](https://img.shields.io/badge/Engine-Sequential_MAS-6B66FF?style=for-the-badge&logo=deepmind&logoColor=white)](https://github.com/SubashSK777/Multi-Agent-AI)
   [![Autonomous](https://img.shields.io/badge/Workflow-Autonomous-00D2D3?style=for-the-badge&logo=robotframework&logoColor=white)](https://github.com/SubashSK777/Multi-Agent-AI)
-  [![AI Layer](https://img.shields.io/badge/AI_Layer-Puter.js_V2-FF6B6B?style=for-the-badge&logo=ai&logoColor=white)](https://puter.com)
+  [![Inference](https://img.shields.io/badge/Inference-Puter.js_Parallel-FF6B6B?style=for-the-badge&logo=ai&logoColor=white)](https://puter.com)
 
   <p align="center">
     <b>A high-order Multi-Agent System (MAS) leveraging recursive context-injection and sequential reasoning to solve multi-dimensional ethical dilemmas.</b>
   </p>
 
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmZpZzBqZzBqZzBqZzBqZzBqZzBqZzBqZzBqZzBqZzBqZzBqJmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/A6aHBCFqlE0Rq/giphy.gif" width="100%" alt="Neural Flow Animation">
+  <img src="https://github-readme-stats.vercel.app/api?username=SubashSK777&show_icons=true&theme=tokyonight" alt="GitHub Stats">
 </div>
 
-## 🧬 Core Architecture: The Multi-Agent Loop
-The Nexus Engine is built on a **Sequential Multi-Agent Architecture**. It deviates from traditional single-prompt AI by distributing specialized logic across an autonomous chain of command.
+---
 
-### 🔄 The Recursive Context Pipeline
-Unlike basic RAG or zero-shot prompts, Nexus implements a **Recursive Contextual Accumulation** system. Every agent's output is sanitized and injected as a high-fidelity prompt prefix for the succeeding specialized agent.
+## � MAS Neural Architecture
+The Nexus Engine implements a **Recursive Contextual Accumulation** pipeline. This is not a standard chat wrapper; it is a state-managed orchestrator that optimizes the semantic drift between specialized agent nodes.
 
+### 🔄 Data Flow Topology
 ```mermaid
 graph TD
     User([User Dilemma]) --> A[📝 Scenario Creator]
@@ -37,8 +37,6 @@ graph TD
 ---
 
 ## 🛰️ Modular Agent Specialization
-Each node in the Nexus MAS is a hyper-specialized specialized LLM instance:
-
 | Agent Node | Responsibility | Strategic Objective |
 | :--- | :--- | :--- |
 | **Architect** | Scenario Design | Conflict isolation and variable definition |
@@ -49,19 +47,17 @@ Each node in the Nexus MAS is a hyper-specialized specialized LLM instance:
 
 ---
 
-## ⚡ Technical Specification
-- **Orchestrator:** Asynchronous sequential processing loop.
-- **Inference Layer:** `Puter.ai.chat()` serverless execution.
-- **State Management:** Local context persistence across agent transitions.
-- **Optimization:** Dynamic prompt injection for zero-drift reasoning.
+## 🏗️ Technical Specification & Performance
+Nexus utilizes **Asynchronous Sequential Processing** via the Puter.js orchestrator. This allows for high-fidelity reasoning without the latency of traditional Python-based MAS frameworks like CrewAI.
 
-<div align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmFscnh3Ymd5Znd5Znd5Znd5Znd5Znd5Znd5Znd5Znd5Znd5JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/6o9SGRshgSExy/giphy.gif" width="400" alt="Process Animation">
-</div>
+### ⚙️ Engine Mechanics
+- **State Management:** Persistent context memory using recursive injection.
+- **Inference Layer:** Abstracted Puter.js worker threads.
+- **Logic Sync:** Sequential lock-step synchronization between agents.
 
 ---
 
-## 🏗️ Deployment Intelligence
+## 🛠️ Deployment Intelligence
 ```bash
 # Resonance (Protocol Ignition)
 git clone https://github.com/SubashSK777/Multi-Agent-AI.git && cd Multi-Agent-AI
@@ -74,6 +70,6 @@ python -m http.server 8000
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%" />
-  <p><b>DOCUMENTATION FOR AI ENGINEERS & MAS RESEARCHERS</b></p>
-  <sub>Architected by Subash SK | Powered by Quantum Inference</sub>
+  <p><b>MASTER ARCHITECT: SUBASH SK</b></p>
+  <sub>Autonomous Multi-Agent Systems Research Hub</sub>
 </div>
